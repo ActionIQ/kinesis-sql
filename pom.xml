@@ -20,7 +20,7 @@
 
   <groupId>com.qubole.spark</groupId>
   <artifactId>spark-sql-kinesis_2.12</artifactId>
-  <version>1.2.1_spark-2.4-aiq2</version>
+  <version>1.2.1_spark-2.4-aiq3</version>
   <packaging>jar</packaging>
   <name>Kinesis Integration for Structured Streaming</name>
   <description>Connector to read from and write into Kinesis from Structured Streaming Applications</description>
@@ -63,7 +63,7 @@
     <sbt.project.name>sql-kinesis</sbt.project.name>
     <spark.version>2.4.0</spark.version>
     <scala.binary.version>2.12</scala.binary.version>
-    <fasterxml.jackson.version>2.6.7</fasterxml.jackson.version>
+    <fasterxml.jackson.version>2.9.10</fasterxml.jackson.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
